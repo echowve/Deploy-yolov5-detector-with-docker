@@ -1,0 +1,7 @@
+flask
+flask_restful
+seaborn
+matplotlib
+pyyaml
+pandas
+opencv_python
