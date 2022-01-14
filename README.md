@@ -7,7 +7,7 @@ Deploy yolov5 with flask restful api on nvidia-docker for person detection
     $ cd detection_server
     $ docker build -t detection .
    ```
-   Then, the detection docker images can be found when you exec docker images command.
+   Then, the detection docker image can be found when you exec *docker images* command.
 2. Create container with detection image
    ```shell
     $ docker run -d --gpus device=0 -p 5001:5001 detection
